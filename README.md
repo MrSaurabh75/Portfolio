@@ -26,7 +26,7 @@
             class="img-fluid rounded shadow-lg"
             height="auto"
             width="300px"
-            src="assets/profile.jpg"
+            src="https://drive.google.com/file/d/1Tu_QYz0Eaka5eEZZ2ESNixPd_Xapnhfl/view?usp=drive_link"
             alt="Profile Image"
           />
         </div>
@@ -55,3 +55,35 @@
   </div>
 </section>
 <!-- /END About Section -->
+<!-- **** Contact Section **** -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper load-hidden">
+      <p class="contact-wrapper__text">Call Me-9130701209</p>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--resume"
+        href="mailto:saurabhdc7575@gmail.com"
+        >Mail to Action</a
+      >
+    </div>
+  </div>
+</section>
+<!-- /END Contact Section -->
+<footer class="footer navbar-static-bottom">
+  ...
+  <div class="social-links">
+    <a href="#!" target="_blank">
+      <i class="fa fa-twitter fa-inverse"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa fa-linkedin fa-inverse"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa fa-github fa-inverse"></i>
+    </a>
+  </div>
+  ...
+</footer>
