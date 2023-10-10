@@ -26,8 +26,7 @@
             class="img-fluid rounded shadow-lg"
             height="auto"
             width="300px"
-            src="https://drive.google.com/file/d/1Tu_QYz0Eaka5eEZZ2ESNixPd_Xapnhfl/view?usp=drive_link"
-            alt="Profile Image"
+            ![Alt text](https://drive.google.com/file/d/1Tu_QYz0Eaka5eEZZ2ESNixPd_Xapnhfl/view?usp=drive_link)
           />
         </div>
       </div>
