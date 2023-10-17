@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <script src="Port.js"></script>
+        <script src="https://kit.fontawesome.com/f1c82f8b76.js" crossorigin="anonymous"></script>
+        <title>Personal Porfolio</title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-compass" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Hello I'm</p>
+                    <h1><span>Saurabh</span> Chorge</h1>
+                </div>
+            </div>
+        </div>
+        <!--------About------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="myPhoto.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>   I am a passionate and motivated student pursuing a Master of Computer Application (MCA). Technology has always been my calling, and I am enthusiastic about exploring the vast world of computer science. My journey in the realm of programming and software development started with a burning curiosity to understand how things work and a desire to create solutions to real-world problems. During my academic journey, I've honed my skills in various programming languages, data structures, and algorithms. I am always eager to learn, adapt, and embrace new technologies.
+                            This portfolio is a representation of my academic and personal projects, showcasing my dedication, creativity, and problem-solving abilities. I hope you enjoy exploring the work I've done so far, and I'm excited to continue evolving and growing as a computer science professional.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('programming languages')">Programming Languages</p>
+                            <p class="tab-links" onclick="opentab('Front-End Development')">Front-End Developement</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>  
+                        <div>
+                             <div class="tab-contents active-tab" id="programming languages">
+                                <ul>
+                                    <li><span>Java</span><br>Core Java/Advance Java</li>
+                                    <li><span>C</span><br>Programming</li>
+                                    <li><span>Pyhton</span></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Front-End Development">
+                                <ul>
+                                    <li><span>HTML</span></li>
+                                    <li><span>CSS</span><br></li>
+                                    <li><span>JavaScript</span></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>SSC</span><br>2016-17</li>
+                                    <li><span>HSC</span><br>2018-19</li>
+                                    <li><span>Bsc(Computer Science)</span><br>2019-22</li>
+                                    <li><span>MCA(Master Of Computer Application)</span><br>persuing..</li>
+                                </ul>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--My servises-->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">Skills</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Web-Developement</h2>
+                        <p>Web development with HTML, CSS, and JavaScript is a subset of web development that revolves around creating the visual and interactive components of websites and web applications.</p>
+                     </div>
+                     <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>DBMS with MySql</h2>
+                        <p>My expertise lies in Database Management Systems, particularly MySQL. I design and maintain relational databases, optimize query performance, and ensure data integrity. Proficient in creating, modifying, and querying databases, I excel in organizing, securing, and retrieving data, making me adept at handling data-driven applications and systems.</p>
+                     </div>
+                     <div>
+                        <i class="fa-brands fa-js"></i>
+                        <h2>Data Structure & Algorithms with JavaScript</h2>
+                        <p>I specialize in Data Structures with JavaScript, mastering the implementation of essential data structures like arrays, linked lists, stacks, and queues. Proficient in algorithms and data manipulation, I leverage these skills to create efficient, organized, and dynamic solutions for a wide range of web development projects.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>TicTacToe</h3>
+                            <p>"Java-based Tic Tac Toe game: Play against the computer or a friend. Simple, fun, and interactive Java project for all."</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                        <h3>Amazon Web Clone Application</h3>
+                            <p>"It is the web based application in that the system will be used for general purpose like customer's can see the products and can add the products into the cart and can checkout the final amount.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>saurabhdc7575@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9130701209</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/saurabh-chorge-237996202/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/MrSaurabh75"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.instagram.com/saurabh_chorge_7575/"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                        <a href="Saurabh's Resume (4).pdf" class="btn btn2">Download CV <i class="fa-regular fa-circle-down"></i></i></a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Mail ID" required>
+                            <textarea name="message" row="6" placeholder="Message For Me"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"> Thanks For Visit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200";
+        }
+    </script>
+</html>
